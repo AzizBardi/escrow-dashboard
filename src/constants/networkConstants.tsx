@@ -12,6 +12,17 @@ interface INetworkMap {
 }
 
 export const networkMap: INetworkMap = {
+  skale: {
+    title: 'Skale Testnet',
+    key: 'skale',
+    scanner: 'https://stocky-pleione.explorer.staging-v2.skalenodes.com/',
+    rpcUrl: 'https://staging-v2.skalenodes.com/v1/stocky-pleione',
+    defaultFactoryAddr: '0xE7C0336B542d68599eb0e8B16d32b18a643Cdb4C',
+    hmtAddr: '0x86481C518509DF2eD9510273417c4f7e2842E4eE',
+    graphqlClientUrl:
+      'https://skale-humanprocol-graph.skale.network/',
+    showTokenStats: true,
+  },
   polygon: {
     title: 'Polygon Mainnet',
     key: 'polygon',
